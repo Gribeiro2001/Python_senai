@@ -1,0 +1,7 @@
+criar um codigo que exiba 
+que eu coloque a idade do meu carro 
+se for >= 3 "Seu carro é velho"
+se for <=3 "Seu carro é velho"
+
+
+
