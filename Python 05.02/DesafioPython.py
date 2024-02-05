@@ -41,7 +41,17 @@ print(f"Exponenciação: {exponenciacao}")
 for numero in range(1, 11):
     print(numero)
 
+#7.)
+def calcular_preco_passagem(km):
+    if km > 200:
+        preco = km * 0.45
+    else:
+        preco = km * 0.50
+    return preco
 
+quilometragem = float(input("Informe a quilometragem da viagem: "))
+preco_total = calcular_preco_passagem(quilometragem)
+print(f"O preço da passagem é: R${preco_total:.2f}")
 
 
 
