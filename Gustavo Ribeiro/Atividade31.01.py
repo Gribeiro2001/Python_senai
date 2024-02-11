@@ -115,9 +115,8 @@ print(f"{metros} metros equivalem a {milimetros} milímetros.")
 
 # 1.) Crie um programa que exiba a seguinte frase.
 
-nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
-cidade = input("Digite sua cidade: ")
+nome = float (input("Digite seu nome: "))
+idade = float (input("Digite sua idade: "))
+cidade = float (input("Digite sua cidade: "))
 
-print(f"Meu nome é {nome}, tenho {idade} anos e moro em {cidade}")
-
+print(f"Meu nome é {nome} tenho {idade} anos e moro em {cidade}")

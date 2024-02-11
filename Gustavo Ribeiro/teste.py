@@ -1,8 +1,7 @@
-senha = input ("Digite sua senha: ")
-senha_correta = "123"
+numero = int(input("digite um numero: "))
 
-while senha != senha_correta: #while repeti quando o usuario inseri um valor direfente da variavel.
-    print ("Senha incorreta! Tente novamente")
-    senha = input ("Digite sua senha: ")
+print(f"a tabuada do {numero}")
 
-print ("Acesso permitido!")
+for i in range(1,11):
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}")
